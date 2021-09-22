@@ -1,0 +1,541 @@
+-- By monke
+
+-- Instances:
+
+local MainFrame = Instance.new("Frame")
+local Global = Instance.new("TextButton")
+local Shooters = Instance.new("TextButton")
+local YesTabButton = Instance.new("TextButton")
+local GloabalTab = Instance.new("Frame")
+local Esp = Instance.new("TextButton")
+local Admin = Instance.new("TextButton")
+local Aimlock = Instance.new("TextButton")
+local Anotherhub = Instance.new("TextButton")
+local Trolling = Instance.new("TextButton")
+local ChatBypasser = Instance.new("TextButton")
+local Infyield = Instance.new("TextButton")
+local DarkHub = Instance.new("TextButton")
+local ShootersTab = Instance.new("Frame")
+local Vapev4 = Instance.new("TextButton")
+local DarkHubF = Instance.new("TextButton")
+local Phantom = Instance.new("TextButton")
+local mm2 = Instance.new("TextButton")
+local recoil = Instance.new("TextButton")
+local BigPaintBall = Instance.new("TextButton")
+local Paintball = Instance.new("TextButton")
+local KAT = Instance.new("TextButton")
+local DraggablePannel = Instance.new("Frame")
+local Close = Instance.new("TextButton")
+local Othergames = Instance.new("Frame")
+local Beeswarm = Instance.new("TextButton")
+local JailBreak = Instance.new("TextButton")
+local PetSimX = Instance.new("TextButton")
+local BuildaBoat = Instance.new("TextButton")
+
+--Properties:
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = game.CoreGui
+MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+MainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
+MainFrame.Position = UDim2.new(0.306775868, 0, 0.0884848535, 0)
+MainFrame.Size = UDim2.new(0, 484, 0, 331)
+MainFrame.Style = Enum.FrameStyle.RobloxRound
+MainFrame.Active = true
+MainFrame.Draggable =true
+
+Global.Name = "Global"
+Global.Parent = MainFrame
+Global.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Global.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Global.Position = UDim2.new(-0.0143436715, 0, 0.217369616, 0)
+Global.Size = UDim2.new(0, 176, 0, 49)
+Global.Font = Enum.Font.SourceSans
+Global.Text = "Global"
+Global.TextColor3 = Color3.fromRGB(255, 255, 255)
+Global.TextSize = 14.000
+
+Shooters.Name = "Shooters"
+Shooters.Parent = MainFrame
+Shooters.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Shooters.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Shooters.Position = UDim2.new(0.347666591, 0, 0.215703398, 0)
+Shooters.Size = UDim2.new(0, 142, 0, 50)
+Shooters.Font = Enum.Font.SourceSans
+Shooters.Text = "shooters/pvp"
+Shooters.TextColor3 = Color3.fromRGB(255, 255, 255)
+Shooters.TextSize = 14.000
+
+YesTabButton.Name = "YesTabButton"
+YesTabButton.Parent = MainFrame
+YesTabButton.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+YesTabButton.BorderColor3 = Color3.fromRGB(30, 30, 30)
+YesTabButton.Position = UDim2.new(0.643551946, 0, 0.215562254, 0)
+YesTabButton.Size = UDim2.new(0, 174, 0, 50)
+YesTabButton.Font = Enum.Font.SourceSans
+YesTabButton.Text = "Just games"
+YesTabButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+YesTabButton.TextSize = 14.000
+
+GloabalTab.Name = "GloabalTab"
+GloabalTab.Parent = MainFrame
+GloabalTab.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+GloabalTab.BorderColor3 = Color3.fromRGB(30, 30, 30)
+GloabalTab.Position = UDim2.new(-0.00864303112, 0, 0.373025477, 0)
+GloabalTab.Size = UDim2.new(0, 475, 0, 195)
+
+Esp.Name = "Esp"
+Esp.Parent = GloabalTab
+Esp.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Esp.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Esp.Position = UDim2.new(-0.00171210035, 0, 0.00198497274, 0)
+Esp.Size = UDim2.new(0, 167, 0, 49)
+Esp.Font = Enum.Font.SourceSans
+Esp.Text = "ESP and other"
+Esp.TextColor3 = Color3.fromRGB(255, 255, 255)
+Esp.TextSize = 14.000
+
+Admin.Name = "Admin"
+Admin.Parent = GloabalTab
+Admin.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Admin.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Admin.Position = UDim2.new(-0.00171210035, 0, 0.371215671, 0)
+Admin.Size = UDim2.new(0, 167, 0, 49)
+Admin.Font = Enum.Font.SourceSans
+Admin.Text = "Admin"
+Admin.TextColor3 = Color3.fromRGB(255, 255, 255)
+Admin.TextSize = 14.000
+
+Aimlock.Name = "Aimlock"
+Aimlock.Parent = GloabalTab
+Aimlock.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Aimlock.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Aimlock.Position = UDim2.new(-0.00171210035, 0, 0.745574653, 0)
+Aimlock.Size = UDim2.new(0, 167, 0, 49)
+Aimlock.Font = Enum.Font.SourceSans
+Aimlock.Text = "Aimlock/Aimbot"
+Aimlock.TextColor3 = Color3.fromRGB(255, 255, 255)
+Aimlock.TextSize = 14.000
+
+Anotherhub.Name = "Another hub"
+Anotherhub.Parent = GloabalTab
+Anotherhub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Anotherhub.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Anotherhub.Position = UDim2.new(0.36881426, 0, 0.00198497274, 0)
+Anotherhub.Size = UDim2.new(0, 167, 0, 49)
+Anotherhub.Font = Enum.Font.SourceSans
+Anotherhub.Text = "Another hub i think"
+Anotherhub.TextColor3 = Color3.fromRGB(255, 255, 255)
+Anotherhub.TextSize = 14.000
+
+Trolling.Name = "Trolling"
+Trolling.Parent = GloabalTab
+Trolling.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Trolling.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Trolling.Position = UDim2.new(0.36881426, 0, 0.371215671, 0)
+Trolling.Size = UDim2.new(0, 167, 0, 49)
+Trolling.Font = Enum.Font.SourceSans
+Trolling.Text = "Trolling"
+Trolling.TextColor3 = Color3.fromRGB(255, 255, 255)
+Trolling.TextSize = 14.000
+
+ChatBypasser.Name = "Chat Bypasser"
+ChatBypasser.Parent = GloabalTab
+ChatBypasser.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+ChatBypasser.BorderColor3 = Color3.fromRGB(30, 30, 30)
+ChatBypasser.Position = UDim2.new(0.3688142, 0, 0.745574653, 0)
+ChatBypasser.Size = UDim2.new(0, 167, 0, 49)
+ChatBypasser.Font = Enum.Font.SourceSans
+ChatBypasser.Text = "Chat Bypasser"
+ChatBypasser.TextColor3 = Color3.fromRGB(255, 255, 255)
+ChatBypasser.TextSize = 14.000
+
+Infyield.Name = "Inf yield"
+Infyield.Parent = GloabalTab
+Infyield.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Infyield.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Infyield.Position = UDim2.new(0.737235308, 0, 0.745574653, 0)
+Infyield.Size = UDim2.new(0, 124, 0, 49)
+Infyield.Font = Enum.Font.SourceSans
+Infyield.Text = "Inf yeild(better admin)"
+Infyield.TextColor3 = Color3.fromRGB(255, 255, 255)
+Infyield.TextSize = 14.000
+
+DarkHub.Name = "DarkHub"
+DarkHub.Parent = GloabalTab
+DarkHub.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+DarkHub.BorderColor3 = Color3.fromRGB(30, 30, 30)
+DarkHub.Position = UDim2.new(0.737235308, 0, 0.371215671, 0)
+DarkHub.Size = UDim2.new(0, 124, 0, 49)
+DarkHub.Font = Enum.Font.SourceSans
+DarkHub.Text = "DarkHub"
+DarkHub.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkHub.TextSize = 14.000
+
+ShootersTab.Name = "ShootersTab"
+ShootersTab.Parent = MainFrame
+ShootersTab.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+ShootersTab.BorderColor3 = Color3.fromRGB(30, 30, 30)
+ShootersTab.Position = UDim2.new(-0.00899999961, 0, 0.372999996, 0)
+ShootersTab.Size = UDim2.new(0, 475, 0, 195)
+
+Vapev4.Name = "Vapev4"
+Vapev4.Parent = ShootersTab
+Vapev4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Vapev4.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Vapev4.Position = UDim2.new(-0.00200000009, 0, 0.00200000009, 0)
+Vapev4.Size = UDim2.new(0, 167, 0, 49)
+Vapev4.Font = Enum.Font.SourceSans
+Vapev4.Text = "Bedwars Gui"
+Vapev4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Vapev4.TextSize = 14.000
+
+DarkHubF.Name = "DarkHubF"
+DarkHubF.Parent = ShootersTab
+DarkHubF.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+DarkHubF.BorderColor3 = Color3.fromRGB(30, 30, 30)
+DarkHubF.Position = UDim2.new(-0.00200000009, 0, 0.370999992, 0)
+DarkHubF.Size = UDim2.new(0, 167, 0, 49)
+DarkHubF.Font = Enum.Font.SourceSans
+DarkHubF.Text = "DarkHub"
+DarkHubF.TextColor3 = Color3.fromRGB(255, 255, 255)
+DarkHubF.TextSize = 14.000
+
+Phantom.Name = "Phantom"
+Phantom.Parent = ShootersTab
+Phantom.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Phantom.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Phantom.Position = UDim2.new(-0.00200000009, 0, 0.745999992, 0)
+Phantom.Size = UDim2.new(0, 167, 0, 49)
+Phantom.Font = Enum.Font.SourceSans
+Phantom.Text = "Phantom Forces"
+Phantom.TextColor3 = Color3.fromRGB(255, 255, 255)
+Phantom.TextSize = 14.000
+
+mm2.Name = "mm2"
+mm2.Parent = ShootersTab
+mm2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+mm2.BorderColor3 = Color3.fromRGB(30, 30, 30)
+mm2.Position = UDim2.new(0.368999988, 0, 0.00200000009, 0)
+mm2.Size = UDim2.new(0, 167, 0, 49)
+mm2.Font = Enum.Font.SourceSans
+mm2.Text = "MM2"
+mm2.TextColor3 = Color3.fromRGB(255, 255, 255)
+mm2.TextSize = 14.000
+
+recoil.Name = "recoil"
+recoil.Parent = ShootersTab
+recoil.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+recoil.BorderColor3 = Color3.fromRGB(30, 30, 30)
+recoil.Position = UDim2.new(0.368999988, 0, 0.370999992, 0)
+recoil.Size = UDim2.new(0, 167, 0, 49)
+recoil.Font = Enum.Font.SourceSans
+recoil.Text = "Recoil Gui"
+recoil.TextColor3 = Color3.fromRGB(255, 255, 255)
+recoil.TextSize = 14.000
+
+BigPaintBall.Name = "BigPaintBall"
+BigPaintBall.Parent = ShootersTab
+BigPaintBall.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BigPaintBall.BorderColor3 = Color3.fromRGB(30, 30, 30)
+BigPaintBall.Position = UDim2.new(0.368999988, 0, 0.745999992, 0)
+BigPaintBall.Size = UDim2.new(0, 167, 0, 49)
+BigPaintBall.Font = Enum.Font.SourceSans
+BigPaintBall.Text = "Paintball unlock all"
+BigPaintBall.TextColor3 = Color3.fromRGB(255, 255, 255)
+BigPaintBall.TextSize = 14.000
+
+Paintball.Name = "Paintball"
+Paintball.Parent = ShootersTab
+Paintball.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Paintball.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Paintball.Position = UDim2.new(0.736999989, 0, 0.745999992, 0)
+Paintball.Size = UDim2.new(0, 115, 0, 49)
+Paintball.Font = Enum.Font.SourceSans
+Paintball.Text = "Big Paintball gui"
+Paintball.TextColor3 = Color3.fromRGB(255, 255, 255)
+Paintball.TextSize = 14.000
+
+KAT.Name = "KAT"
+KAT.Parent = ShootersTab
+KAT.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+KAT.BorderColor3 = Color3.fromRGB(30, 30, 30)
+KAT.Position = UDim2.new(0.736999989, 0, 0.370999992, 0)
+KAT.Size = UDim2.new(0, 115, 0, 49)
+KAT.Font = Enum.Font.SourceSans
+KAT.Text = "KAT"
+KAT.TextColor3 = Color3.fromRGB(255, 255, 255)
+KAT.TextSize = 14.000
+
+DraggablePannel.Name = "Draggable Pannel"
+DraggablePannel.Parent = MainFrame
+DraggablePannel.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+DraggablePannel.BorderColor3 = Color3.fromRGB(27, 42, 53)
+DraggablePannel.Position = UDim2.new(-0.0187282562, 0, -0.0195153356, 0)
+DraggablePannel.Size = UDim2.new(0, 484, 0, 76)
+DraggablePannel.Style = Enum.FrameStyle.RobloxRound
+
+Close.Name = "Close"
+Close.Parent = MainFrame
+Close.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Close.BorderColor3 = Color3.fromRGB(20, 20, 20)
+Close.Position = UDim2.new(0.929943025, 0, 0.0466899127, 0)
+Close.Size = UDim2.new(0, 29, 0, 28)
+Close.AutoButtonColor = false
+Close.Font = Enum.Font.SourceSansBold
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close.TextSize = 18.000
+
+Othergames.Name = "Othergames"
+Othergames.Parent = MainFrame
+Othergames.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Othergames.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Othergames.Position = UDim2.new(-0.00899999961, 0, 0.372999996, 0)
+Othergames.Size = UDim2.new(0, 475, 0, 195)
+
+Beeswarm.Name = "Bee swarm"
+Beeswarm.Parent = Othergames
+Beeswarm.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+Beeswarm.BorderColor3 = Color3.fromRGB(30, 30, 30)
+Beeswarm.Position = UDim2.new(-0.00200000009, 0, 0.00200000009, 0)
+Beeswarm.Size = UDim2.new(0, 167, 0, 49)
+Beeswarm.Font = Enum.Font.SourceSans
+Beeswarm.Text = "Bee swarm"
+Beeswarm.TextColor3 = Color3.fromRGB(255, 255, 255)
+Beeswarm.TextSize = 14.000
+
+JailBreak.Name = "JailBreak"
+JailBreak.Parent = Othergames
+JailBreak.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+JailBreak.BorderColor3 = Color3.fromRGB(30, 30, 30)
+JailBreak.Position = UDim2.new(-0.00200000009, 0, 0.370999992, 0)
+JailBreak.Size = UDim2.new(0, 167, 0, 49)
+JailBreak.Font = Enum.Font.SourceSans
+JailBreak.Text = "Jailbreak"
+JailBreak.TextColor3 = Color3.fromRGB(255, 255, 255)
+JailBreak.TextSize = 14.000
+
+PetSimX.Name = "PetSimX"
+PetSimX.Parent = Othergames
+PetSimX.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+PetSimX.BorderColor3 = Color3.fromRGB(30, 30, 30)
+PetSimX.Position = UDim2.new(-0.00200000009, 0, 0.745999992, 0)
+PetSimX.Size = UDim2.new(0, 167, 0, 49)
+PetSimX.Font = Enum.Font.SourceSans
+PetSimX.Text = "Pet Sim X"
+PetSimX.TextColor3 = Color3.fromRGB(255, 255, 255)
+PetSimX.TextSize = 14.000
+
+BuildaBoat.Name = "Build a Boat"
+BuildaBoat.Parent = Othergames
+BuildaBoat.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
+BuildaBoat.BorderColor3 = Color3.fromRGB(30, 30, 30)
+BuildaBoat.Position = UDim2.new(0.368999988, 0, 0.00200000009, 0)
+BuildaBoat.Size = UDim2.new(0, 167, 0, 49)
+BuildaBoat.Font = Enum.Font.SourceSans
+BuildaBoat.Text = "Build A Boat"
+BuildaBoat.TextColor3 = Color3.fromRGB(255, 255, 255)
+BuildaBoat.TextSize = 14.000
+
+-- Scripts:
+
+local function PPEEPF_fake_script() -- Global.LocalScript 
+	local script = Instance.new('LocalScript', Global)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.GloabalTab.Visible=true
+		script.Parent.Parent.ShootersTab.Visible=false
+		script.Parent.Parent.Othergames.Visible=false
+	end)
+end
+coroutine.wrap(PPEEPF_fake_script)()
+local function WZFF_fake_script() -- Shooters.LocalScript 
+	local script = Instance.new('LocalScript', Shooters)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.GloabalTab.Visible=false
+		script.Parent.Parent.ShootersTab.Visible=true
+		script.Parent.Parent.Othergames.Visible=false
+	end)
+end
+coroutine.wrap(WZFF_fake_script)()
+local function KYGTJAK_fake_script() -- YesTabButton.LocalScript 
+	local script = Instance.new('LocalScript', YesTabButton)
+
+	script.Parent.MouseButton1Down:connect(function()
+		script.Parent.Parent.GloabalTab.Visible=false
+		script.Parent.Parent.ShootersTab.Visible=false
+		script.Parent.Parent.Othergames.Visible=true
+	end)
+end
+coroutine.wrap(KYGTJAK_fake_script)()
+local function QFPN_fake_script() -- Esp.LocalScript 
+	local script = Instance.new('LocalScript', Esp)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/cheatx/main/cheatx%20loader'))()
+	end)
+end
+coroutine.wrap(QFPN_fake_script)()
+local function QFVGJH_fake_script() -- Admin.LocalScript 
+	local script = Instance.new('LocalScript', Admin)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/WnWVpzzr'))()
+	end)
+end
+coroutine.wrap(QFVGJH_fake_script)()
+local function WMPVYGM_fake_script() -- Aimlock.LocalScript 
+	local script = Instance.new('LocalScript', Aimlock)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/71YWvURH'))()
+	end)
+end
+coroutine.wrap(WMPVYGM_fake_script)()
+local function RXTH_fake_script() -- Anotherhub.LocalScript 
+	local script = Instance.new('LocalScript', Anotherhub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
+	end)
+end
+coroutine.wrap(RXTH_fake_script)()
+local function ZHZO_fake_script() -- Trolling.LocalScript 
+	local script = Instance.new('LocalScript', Trolling)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
+	end)
+end
+coroutine.wrap(ZHZO_fake_script)()
+local function MOSTI_fake_script() -- ChatBypasser.LocalScript 
+	local script = Instance.new('LocalScript', ChatBypasser)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+	end)
+end
+coroutine.wrap(MOSTI_fake_script)()
+local function VPZBJC_fake_script() -- Infyield.LocalScript 
+	local script = Instance.new('LocalScript', Infyield)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(VPZBJC_fake_script)()
+local function KLTLEA_fake_script() -- DarkHub.LocalScript 
+	local script = Instance.new('LocalScript', DarkHub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(KLTLEA_fake_script)()
+local function JCANTD_fake_script() -- Vapev4.LocalScript 
+	local script = Instance.new('LocalScript', Vapev4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+	end)
+end
+coroutine.wrap(JCANTD_fake_script)()
+local function AHIFAHD_fake_script() -- DarkHubF.LocalScript 
+	local script = Instance.new('LocalScript', DarkHubF)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
+	end)
+end
+coroutine.wrap(AHIFAHD_fake_script)()
+local function KPNGCA_fake_script() -- Phantom.LocalScript 
+	local script = Instance.new('LocalScript', Phantom)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua"))()
+	end)
+end
+coroutine.wrap(KPNGCA_fake_script)()
+local function IJMGRS_fake_script() -- mm2.LocalScript 
+	local script = Instance.new('LocalScript', mm2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
+	end)
+end
+coroutine.wrap(IJMGRS_fake_script)()
+local function AXBRBGV_fake_script() -- recoil.LocalScript 
+	local script = Instance.new('LocalScript', recoil)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/VTwbr0pV"))()
+	end)
+end
+coroutine.wrap(AXBRBGV_fake_script)()
+local function RQAK_fake_script() -- BigPaintBall.LocalScript 
+	local script = Instance.new('LocalScript', BigPaintBall)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/Singularity5490/bigpaintball/main/unlockall.lua'))()
+	end)
+end
+coroutine.wrap(RQAK_fake_script)()
+local function EFSQJ_fake_script() -- Paintball.LocalScript 
+	local script = Instance.new('LocalScript', Paintball)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
+	end)
+end
+coroutine.wrap(EFSQJ_fake_script)()
+local function WCNCNNM_fake_script() -- KAT.LocalScript 
+	local script = Instance.new('LocalScript', KAT)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/LwCa7jPq", true))()
+	end)
+end
+coroutine.wrap(WCNCNNM_fake_script)()
+local function BNQH_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+end
+coroutine.wrap(BNQH_fake_script)()
+local function QVKDO_fake_script() -- Beeswarm.LocalScript 
+	local script = Instance.new('LocalScript', Beeswarm)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/infinitylua/Luascripts/main/KJFsdEj8sXrja.lua"))()
+	end)
+end
+coroutine.wrap(QVKDO_fake_script)()
+local function IWDLWI_fake_script() -- JailBreak.LocalScript 
+	local script = Instance.new('LocalScript', JailBreak)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
+	end)
+end
+coroutine.wrap(IWDLWI_fake_script)()
+local function TBINF_fake_script() -- PetSimX.LocalScript 
+	local script = Instance.new('LocalScript', PetSimX)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
+	end)
+end
+coroutine.wrap(TBINF_fake_script)()
+local function RIYCUUX_fake_script() -- BuildaBoat.LocalScript 
+	local script = Instance.new('LocalScript', BuildaBoat)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+	end)
+end
+coroutine.wrap(RIYCUUX_fake_script)()
