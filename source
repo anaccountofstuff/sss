@@ -1,7 +1,8 @@
--- By monke
+--monke
 
 -- Instances:
 
+local DED = Instance.new("ScreenGui")
 local MainFrame = Instance.new("Frame")
 local Global = Instance.new("TextButton")
 local Shooters = Instance.new("TextButton")
@@ -34,15 +35,19 @@ local BuildaBoat = Instance.new("TextButton")
 
 --Properties:
 
+DED.Name = "DED"
+DED.Parent = game.CoreGui
+DED.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = game.CoreGui
+MainFrame.Parent = DED
 MainFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
 MainFrame.BorderColor3 = Color3.fromRGB(27, 42, 53)
 MainFrame.Position = UDim2.new(0.306775868, 0, 0.0884848535, 0)
 MainFrame.Size = UDim2.new(0, 484, 0, 331)
 MainFrame.Style = Enum.FrameStyle.RobloxRound
 MainFrame.Active = true
-MainFrame.Draggable =true
+MainFrame.Draggable = true
 
 Global.Name = "Global"
 Global.Parent = MainFrame
@@ -340,7 +345,7 @@ BuildaBoat.TextSize = 14.000
 
 -- Scripts:
 
-local function PPEEPF_fake_script() -- Global.LocalScript 
+local function VAQC_fake_script() -- Global.LocalScript 
 	local script = Instance.new('LocalScript', Global)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -349,8 +354,8 @@ local function PPEEPF_fake_script() -- Global.LocalScript
 		script.Parent.Parent.Othergames.Visible=false
 	end)
 end
-coroutine.wrap(PPEEPF_fake_script)()
-local function WZFF_fake_script() -- Shooters.LocalScript 
+coroutine.wrap(VAQC_fake_script)()
+local function QVJKFTR_fake_script() -- Shooters.LocalScript 
 	local script = Instance.new('LocalScript', Shooters)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -359,8 +364,8 @@ local function WZFF_fake_script() -- Shooters.LocalScript
 		script.Parent.Parent.Othergames.Visible=false
 	end)
 end
-coroutine.wrap(WZFF_fake_script)()
-local function KYGTJAK_fake_script() -- YesTabButton.LocalScript 
+coroutine.wrap(QVJKFTR_fake_script)()
+local function OCPPKKV_fake_script() -- YesTabButton.LocalScript 
 	local script = Instance.new('LocalScript', YesTabButton)
 
 	script.Parent.MouseButton1Down:connect(function()
@@ -369,136 +374,136 @@ local function KYGTJAK_fake_script() -- YesTabButton.LocalScript
 		script.Parent.Parent.Othergames.Visible=true
 	end)
 end
-coroutine.wrap(KYGTJAK_fake_script)()
-local function QFPN_fake_script() -- Esp.LocalScript 
+coroutine.wrap(OCPPKKV_fake_script)()
+local function ICXMT_fake_script() -- Esp.LocalScript 
 	local script = Instance.new('LocalScript', Esp)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/2dgeneralspam1/cheatx/main/cheatx%20loader'))()
 	end)
 end
-coroutine.wrap(QFPN_fake_script)()
-local function QFVGJH_fake_script() -- Admin.LocalScript 
+coroutine.wrap(ICXMT_fake_script)()
+local function ORJQEYN_fake_script() -- Admin.LocalScript 
 	local script = Instance.new('LocalScript', Admin)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/WnWVpzzr'))()
 	end)
 end
-coroutine.wrap(QFVGJH_fake_script)()
-local function WMPVYGM_fake_script() -- Aimlock.LocalScript 
+coroutine.wrap(ORJQEYN_fake_script)()
+local function LXCPO_fake_script() -- Aimlock.LocalScript 
 	local script = Instance.new('LocalScript', Aimlock)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet('https://pastebin.com/raw/71YWvURH'))()
 	end)
 end
-coroutine.wrap(WMPVYGM_fake_script)()
-local function RXTH_fake_script() -- Anotherhub.LocalScript 
+coroutine.wrap(LXCPO_fake_script)()
+local function KNJF_fake_script() -- Anotherhub.LocalScript 
 	local script = Instance.new('LocalScript', Anotherhub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 end
-coroutine.wrap(RXTH_fake_script)()
-local function ZHZO_fake_script() -- Trolling.LocalScript 
+coroutine.wrap(KNJF_fake_script)()
+local function TUQGV_fake_script() -- Trolling.LocalScript 
 	local script = Instance.new('LocalScript', Trolling)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/RNWgaqCE", true))()
 	end)
 end
-coroutine.wrap(ZHZO_fake_script)()
-local function MOSTI_fake_script() -- ChatBypasser.LocalScript 
+coroutine.wrap(TUQGV_fake_script)()
+local function GQIPGW_fake_script() -- ChatBypasser.LocalScript 
 	local script = Instance.new('LocalScript', ChatBypasser)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
 	end)
 end
-coroutine.wrap(MOSTI_fake_script)()
-local function VPZBJC_fake_script() -- Infyield.LocalScript 
+coroutine.wrap(GQIPGW_fake_script)()
+local function FZXINCG_fake_script() -- Infyield.LocalScript 
 	local script = Instance.new('LocalScript', Infyield)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(VPZBJC_fake_script)()
-local function KLTLEA_fake_script() -- DarkHub.LocalScript 
+coroutine.wrap(FZXINCG_fake_script)()
+local function NNXFUE_fake_script() -- DarkHub.LocalScript 
 	local script = Instance.new('LocalScript', DarkHub)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(KLTLEA_fake_script)()
-local function JCANTD_fake_script() -- Vapev4.LocalScript 
+coroutine.wrap(NNXFUE_fake_script)()
+local function RNERB_fake_script() -- Vapev4.LocalScript 
 	local script = Instance.new('LocalScript', Vapev4)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
 	end)
 end
-coroutine.wrap(JCANTD_fake_script)()
-local function AHIFAHD_fake_script() -- DarkHubF.LocalScript 
+coroutine.wrap(RNERB_fake_script)()
+local function KSCDY_fake_script() -- DarkHubF.LocalScript 
 	local script = Instance.new('LocalScript', DarkHubF)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(AHIFAHD_fake_script)()
-local function KPNGCA_fake_script() -- Phantom.LocalScript 
+coroutine.wrap(KSCDY_fake_script)()
+local function GKZH_fake_script() -- Phantom.LocalScript 
 	local script = Instance.new('LocalScript', Phantom)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/mikehalesdev/Public/main/Script.lua"))()
 	end)
 end
-coroutine.wrap(KPNGCA_fake_script)()
-local function IJMGRS_fake_script() -- mm2.LocalScript 
+coroutine.wrap(GKZH_fake_script)()
+local function INKIJ_fake_script() -- mm2.LocalScript 
 	local script = Instance.new('LocalScript', mm2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/Doggo-cryto/EclipseMM2/master/Script", true))()
 	end)
 end
-coroutine.wrap(IJMGRS_fake_script)()
-local function AXBRBGV_fake_script() -- recoil.LocalScript 
+coroutine.wrap(INKIJ_fake_script)()
+local function EWFJZIC_fake_script() -- recoil.LocalScript 
 	local script = Instance.new('LocalScript', recoil)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/VTwbr0pV"))()
 	end)
 end
-coroutine.wrap(AXBRBGV_fake_script)()
-local function RQAK_fake_script() -- BigPaintBall.LocalScript 
+coroutine.wrap(EWFJZIC_fake_script)()
+local function PLSZETL_fake_script() -- BigPaintBall.LocalScript 
 	local script = Instance.new('LocalScript', BigPaintBall)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Singularity5490/bigpaintball/main/unlockall.lua'))()
 	end)
 end
-coroutine.wrap(RQAK_fake_script)()
-local function EFSQJ_fake_script() -- Paintball.LocalScript 
+coroutine.wrap(PLSZETL_fake_script)()
+local function TIRJ_fake_script() -- Paintball.LocalScript 
 	local script = Instance.new('LocalScript', Paintball)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://www.pastebin.com/raw/PuaaGKsT"))()
 	end)
 end
-coroutine.wrap(EFSQJ_fake_script)()
-local function WCNCNNM_fake_script() -- KAT.LocalScript 
+coroutine.wrap(TIRJ_fake_script)()
+local function FOGTQGO_fake_script() -- KAT.LocalScript 
 	local script = Instance.new('LocalScript', KAT)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/LwCa7jPq", true))()
 	end)
 end
-coroutine.wrap(WCNCNNM_fake_script)()
-local function BNQH_fake_script() -- Close.LocalScript 
+coroutine.wrap(FOGTQGO_fake_script)()
+local function PRUWQYG_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -506,36 +511,36 @@ local function BNQH_fake_script() -- Close.LocalScript
 	end)
 	
 end
-coroutine.wrap(BNQH_fake_script)()
-local function QVKDO_fake_script() -- Beeswarm.LocalScript 
+coroutine.wrap(PRUWQYG_fake_script)()
+local function VAEUBOE_fake_script() -- Beeswarm.LocalScript 
 	local script = Instance.new('LocalScript', Beeswarm)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/infinitylua/Luascripts/main/KJFsdEj8sXrja.lua"))()
 	end)
 end
-coroutine.wrap(QVKDO_fake_script)()
-local function IWDLWI_fake_script() -- JailBreak.LocalScript 
+coroutine.wrap(VAEUBOE_fake_script)()
+local function VMVGZ_fake_script() -- JailBreak.LocalScript 
 	local script = Instance.new('LocalScript', JailBreak)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Jailbreak"))()
 	end)
 end
-coroutine.wrap(IWDLWI_fake_script)()
-local function TBINF_fake_script() -- PetSimX.LocalScript 
+coroutine.wrap(VMVGZ_fake_script)()
+local function GAAZUM_fake_script() -- PetSimX.LocalScript 
 	local script = Instance.new('LocalScript', PetSimX)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://system-exodus.com/scripts/PetSimulator/PetSimulatorX.lua", true))()
 	end)
 end
-coroutine.wrap(TBINF_fake_script)()
-local function RIYCUUX_fake_script() -- BuildaBoat.LocalScript 
+coroutine.wrap(GAAZUM_fake_script)()
+local function VZRJSQ_fake_script() -- BuildaBoat.LocalScript 
 	local script = Instance.new('LocalScript', BuildaBoat)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
 	end)
 end
-coroutine.wrap(RIYCUUX_fake_script)()
+coroutine.wrap(VZRJSQ_fake_script)()
